@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--==============================================================================================information desk===================-->
+    <h1>Frontend Web Deverlopment Course Registration</h1>
+    <p>Welcome to our Frontend Web Deverlopment course page</p>
+    <h2>What You Will Learn</h2>
+    <ul>
+        <li>HTML Foundaments</li>
+        <li>Css Foundaments</li>
+        <li>Deverlop Project</li>
+        <li>JavaScript Foundaments</li>
+    </ul>
+    <h2>Registration Form</h2>
+    <!--==============================================================================================form 1 part===================-->
+    <form action="http://72.62.64.192:3333/post" method="post">
+        
+        <div>
+            <label >
+                Full Name:<br>
+                <input type="text" name="username" required>
+            </label>
+        </div>
+        <br>   
+        <div>
+            <label >
+                Email:<br>
+                <input type="email" name="email" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label >
+                Phone:<br>
+                <input type="number" name="phone" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label >
+                Age:<br>
+                <input type="number" name="age" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label >
+                Select Couirse:<br>
+                <select name="course_select">
+                    <option value="html_basic" selected>HTML_Basic</option>
+                    <option value="css_basic">Css_Basic</option>
+                    <option value="deverlop">Deverlop</option>
+                    <option value="java_script">Java_Script</option>
+                </select>
+            </label>
+            
+        </div>
+        <br>
+        <div>
+            <label >
+                Study Type:<br>
+                <input type="radio" name="choise" required>
+                Online
+            </label>
+            <label >
+                <input type="radio" name="choise" required>
+                Offline
+            </label>
+        </div>
+        <br>
+        <div>
+            <label >
+                About You:<br>
+                <textarea type="message"  name="massage" required placeholder="Enter your massage"rows="5" cols="50"></textarea>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label >
+                <input type="checkbox" name="age" required>
+                I agree to rules
+            </label>
+        </div>
+        <br>
+        <button>Send Request</button>
+                
+    </form>
+    <hr>
+    <!--==============================================================================================form 2 part===================-->
+    <form action="http://72.62.64.192:3333/upload" method="post" enctype="multipart/form-data">
+       <h2>Upload your receipt</h2>
+       
+        <div>
+            <label >
+                Choice Image<br>
+                <input  type="file" name="file" required >
+            </label>
+        
+            
+            <input type="submit" value="upload" >
+        </div>
+        
+    </form>
+</body>
+</html>

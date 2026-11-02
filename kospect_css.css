@@ -1,0 +1,110 @@
+/* KONSPEKT*/
+.selectorlar{
+
+}
+.elementlarga_olchamberoish{
+    width:200;/*boyi*/
+    height: 200; /*eni*/
+
+}
+.background_elemetlari{
+    background-image: url();
+    /* background: url();tepadagi bilan bir xil vazifa faqat qisqa format */
+    background-repeat: no-repeat;/* rasmni takroriy korinishini yoqotish*/
+    background-size: cover ; /*rasmni berilgan konteyner olchamiga togirlash*/
+    background-size: contain;/*tepadagi bilan oxshashvazifani bajaradi*/
+    background-repeat: round ;/*rasmni burchaklari bilan aniq korinishi uchun 
+    tepadagi contain va cover qiymatlari bilan birga ishlatilinadi*/
+}
+.border_lar{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border: 1px black solid;/*qissqartitlgan shakli*/
+    border-style: none;
+    border-radius: 5px;/*qirralar ni yoqotish*/
+}
+.outline_lar{
+    outline-width: 1px;
+    outline-color: black;
+    outline-style: solid;
+    /*qissqartmasi*/
+    outline: 2px black solid;
+    outline:none;
+}
+.margin_lar{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   /*qisqartma shakli*/
+   margin: 10px/*top*/ 20px/*right*/ 30px /*bottom*/20px/*left*/;
+   margin:10px ;/*4 tarafga birxil qiymat berish*/
+   margin :10px/*top-bottom*/ 20px/*left-right*/ ;
+
+}
+.padding_lar{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   /*qisqartma shakli*/
+   padding: 10px/*top*/ 20px/*right*/ 30px /*bottom*/20px/*left*/;
+   padding:10px ;/*4 tarafga birxil qiymat berish*/
+   padding :10px/*top-bottom*/ 20px/*left-right*/ ;
+   box-sizing: border-box;/*chegaralarni saqlab qoladi va tashqariga kengayishga yol qoymaydi*/
+
+}
+.text_lar{
+    text-align: center;/*faqat inline elementlar bilan samaraliroq*/
+    text-decoration: none;/*textlarimizga qoshimcha decaratsiya HTML da organganlarimiz*/
+    /*none qiymati a tegidagi pastki chiziqni yoqotadi*/
+    text-transform: uppercase;/*katta harflar*/
+    text-transform: lowercase;/*kichkina harflar*/
+    text-transform: capitalize;/*faqat bosh harflarnio katta qiladi*/
+    letter-spacing: 10px ;/*harflar orasidagi masofa*/
+    line-height: 10px;/*textlar qatorlarning oqaligidagi masofa*/
+    text-shadow: 2px 2px 4px gray;
+    /*awesome css text shadow internetdan text stillarni qidirish*/
+    /*textni qisqartitib uchta nuqta bilan ajratishda yoziladigan kodlar kombinatsiyasi*/
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.font_lar{
+    font-size: 30px;
+    font-weight: 400;/*text qalinligi*/
+    font-style: italic;
+    font-family: sans-serif;/*import qilinadigan fontlar aynan shu qismdan ishga tushiriladi*/
+
+}
+/* hoberlar============================================= */
+a:hover{}/*hover bilan activ ketma ketligiga qattiy amal qilish kerak*/
+a:active{}
+a:visited{}/*Kamdankam holatda ishlatilinadi va juda noqulay*/
+/* ========================================================= */
+.ol.ordered-list{
+    list-style-type:none; /*biz kopincha bu tegni listga tegishli dizayni ozgartirishda none qiymat beramiz*/
+
+}
+.mambers_table tr:nth-child(1){/*nth-childga odd,even,va nomerli qiymatlar berishimiz mumkin*/
+    border: 1px solid #ddd ;
+    padding: 8px;
+    text-align: left;
+    background-color: green;
+    color: white;
+
+
+}
+.position_lar{
+    position: relative;/*malum bir chegara berish asosan parentga beriladi*/
+    position:absolute;/*chegarasiz*/
+    position:fixed;/*ekrani qandaydir qismiga qotirib qoyish*/
+    position:sticky;/*ekranga qotirish lekin ancha qiziqarli style*/top:0;
+    position:static;/**/
+     
+}
+
+

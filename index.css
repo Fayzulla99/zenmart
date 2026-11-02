@@ -1,0 +1,23 @@
+
+.title{
+    width: 400;
+    height: 200;
+
+}
+.b{
+    outline-color: blue;
+    outline-style: none;
+    /*border-color: blue;*/
+}
+.jump{
+    margin:10px;
+
+}
+.about_tokio{
+    border-radius: 10px;
+    background-color: lightseagreen;
+    padding-left: 10px;
+}
+.display{
+    display: block;
+}
