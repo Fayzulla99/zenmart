@@ -1,0 +1,109 @@
+table.vegan-table th:hover{
+    background-color:rgb(1, 110, 150) ;
+
+}
+table.vegan-table tr:hover{
+    background-color: lightgreen;
+}
+table.vegan-table /* orta qator(Vegatables)*/
+tr:nth-child(2):hover{
+    background-color: lightgreen;
+
+}
+table.vegan-table li:hover{
+    background-color: yellow;
+}
+
+/*tabellar======================================================*/
+table.vegan-table{
+     width: 100%;
+    background-color: #ddd;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-family: cursive;
+    
+
+}
+table.vegan-table th , td {
+    padding: 5px 10px ;
+    box-shadow:0px 1px 1px white;
+    
+}
+table.vegan-table th:nth-child(1) {/*Categories*/
+    border-top-left-radius: 5px;
+    background-color: rgb(1, 110, 206);
+    color: white;
+    border-right: 1px white solid;
+}
+table.vegan-table th:nth-child(2) {/*Items*/
+    border-top-right-radius: 5px;
+    background-color: rgb(1, 110, 206);
+    width: 40%;
+    color: white;
+
+}
+table.vegan-table tr:nth-child(3) td:first-child {/*pastki chap-burchak*/
+    border-bottom-left-radius: 5px;
+    
+}
+table.vegan-table tr:nth-child(3) td:last-child {/*pastki o'ng-burchak*/
+    border-bottom-right-radius: 5px;
+    
+}
+
+table.vegan-table /* orta qator(Vegatables)*/
+tr:nth-child(2){
+    background-color:aliceblue;
+    
+} 
+table.vegan-table /* item data qatori*/
+td ol{
+    list-style-type: none;
+    padding-left: 0px;
+    margin:5px 0px;
+} 
+/* ========================================================*/
+.web-p{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(67, 139, 255)
+}
+.web-p:hover{
+    color: orange;
+}
+input{
+    outline:none;
+    border-radius: 5px;
+    border:2px solid rgb(67, 139, 255);
+    width: 180px;
+    height: 22px;
+    
+}
+input:hover{
+    background-color: #ddd;
+    box-shadow:1px 1px 2px;
+}
+input:focus{
+    background-color: #ddd;
+    box-shadow:1px 1px 2px green;
+    border-color: green;
+}
+.yuborish{
+    background-color: rgb(4, 121, 245);
+    color:white;
+    border:1px solid rgb(4, 121, 245);
+    border-radius: 4px;
+    padding: 5px;
+    width: 80px;
+    height: 25px;
+
+}
+.yuborish:hover{
+    background-color: rgb(4, 121, 222);
+    box-shadow: 2px 2px 4px;
+}
+
+
+
+
