@@ -1,14 +1,4 @@
-/* KONSPEKT*/
-.selectorlar{
-    /*id*/
-    /*class*/
-    /*.class.class teg= bu classichida class va uni ichidagi teg yoki class */
-    /*.class,class teg= ikkita classlarimiz birga kelgan qatordagi teg yoki class*/
-    
-    /*all yani (*) */
-    src: format(img);
 
-}
 .elementlarga_olchamberoish{
     width:200;/*boyi*/
     height: 200; /*eni*/
