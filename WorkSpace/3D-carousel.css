@@ -1,0 +1,50 @@
+body{
+
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+:root {
+  --card-width: 100px;
+  --card-height: 200px;
+  --total-items: 6;
+  --radius: 120px; /* Calculated radius for 6 cards */
+}
+.main_container {
+  width: var(--card-width);
+  height: var(--card-height);
+  margin: 80px auto;
+  perspective: 800px;
+}
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spin 20s infinite linear;
+}
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to bottom, red, yellow);
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transform:
+    rotateY(calc(var(--index) * (360deg / var(--total-items))))
+    translateZ(var(--radius));
+}
+@keyframes spin {
+    
+
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+.carousel:hover {
+  animation-play-state: paused;
+}
