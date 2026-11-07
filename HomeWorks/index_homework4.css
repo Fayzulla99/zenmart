@@ -12,7 +12,7 @@ body{
     flex-wrap:wrap ;
     flex-direction: row;
     justify-content: flex-start;
-    gap :5px 15px;
+    gap :5px 10px;
     
 }
 .box{
@@ -23,6 +23,8 @@ body{
     border-radius: 8px;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:flex;
+    flex-direction: column;
     
 }
 .img_box{
@@ -31,4 +33,21 @@ body{
     background: url(https://images.unsplash.com/photo-1775185172785-4bbd6b0fc8f5?q=80&w=2638&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
     background-size: cover;
     background-repeat: round;
+}
+.go_button{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(45, 113, 248);
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-self: self-end;
+}
+.text_inside{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin:16px 8px 0px;
 }

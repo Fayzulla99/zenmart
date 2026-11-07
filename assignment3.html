@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="./public/css/index2.css" />
+    <link rel="icon" href="./public/images/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      /* body{
+        background-color: black;
+      } */
+      .members_table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 3px;
+
+        cursor: pointer;
+      }
+
+      .members_table th,
+      .members_table td {
+        border: 1px solid #ccc;
+      }
+
+      .members_table ul {
+        list-style-type: none;
+        text-align: left;
+        padding: 4px;
+      }
+
+      .members_table th {
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        background-color: rgb(9, 143, 226);
+        color: white;
+      }
+
+      .members_table tr:nth-child(odd) {
+        background-color: rgb(236, 236, 236);
+      }
+      .members_table tr:hover {
+        background-color: rgb(130, 196, 130);
+      }
+      .members_table li:hover {
+        background-color: aqua;
+      }
+
+      .head_table th:hover {
+        background-color: greenyellow;
+      }
+
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+
+      button {
+        background-color: rgb(105, 105, 177);
+        color: white;
+        font-size: 10px;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      input:focus {
+        outline-color: blue;
+      }
+
+      input {
+        font-size: 16px;
+      }
+
+      i {
+        margin-right: 4px;
+      }
+
+      .members_table td {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="members_table">
+      <thead>
+        <tr class="head_table">
+          <th>Category</th>
+          <th>Items</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <i class="fa-brands fa-apple" style="color: rgb(116, 192, 252)"></i>
+            Fruits
+          </td>
+          <td>
+            <ul>
+              <li>Apple</li>
+              <li>Orange</li>
+              <li>Banana</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <i class="fa-solid fa-carrot" style="color: rgb(116, 192, 252)"></i>
+            Vegetables
+          </td>
+          <td>
+            <ul>
+              <li>Carrot</li>
+              <li>Tomato</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <i
+              class="fa-solid fa-wheat-awn"
+              style="color: rgb(116, 192, 252)"
+            ></i
+            >Grains
+          </td>
+          <td>
+            <ul>
+              <li>Rice</li>
+              <li>Wheat</li>
+              <li>Quinoa</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Fikr bildirish</h3>
+    <form action="https:/httbin.org/post" method="post">
+      <input type="text" />
+      <button>Yuborish</button>
+      <p>
+        Bizning
+        <a href="https://google.com" target="_blank">veb-saytimizga</a> tashrif
+        buyuring.
+      </p>
+    </form>
+  </body>
+</html>
